@@ -1,4 +1,8 @@
 # Project: Predicting Airbnb Listing Price in Austin, TX
+Airbnb is an online marketplace that connects people who want to rent out their homes with people who are looking for accomodations in that area. Airbnb currently covers more than 100,000 cities and 220 countries worldwide. The company's name comes from "Air Mattress B&B".
+
+
+
 ![](images/Introduction.png)
 
 <img src="images/Workflow.jpg" width=800 height = 400>
@@ -13,9 +17,7 @@ The dataset includes Airbnb availble units, locations, availability data, etc.
 
 
 ## Web Scraping
-
-
-
+In this project, I scraped the Airbnb website to get the details of all available units in Austin, TX area. It's worth to mention that the units URLs were obtained from the available records on Insideairbnb.com website. After scraping the Airbnb website, the details of 10272 units with more than 80 features were obtained. You can find the scraping code in the following directory: SRC/Airbnb_Scraping.ipynb
 
 
 ## EDA Analysis
@@ -31,7 +33,7 @@ The dataset includes Airbnb availble units, locations, availability data, etc.
 
 
 ### Features
-Features are chosen only if they ware informative and are likely to correlated with the price label. Therefore, I eliminated features like id, host_id, which appear to be noise. In addition, I removed some of the other features such as longitude and lagitutude.
+Features are chosen only if they were informative and are likely to correlated with the price label. Therefore, I eliminated features like id, host_id, neighborhood description which did not have an impact on the listing price. In addition, I removed some of the other features such as longitude and lagitutude as I was mainly using zipcode as the feature.
 
 * Label
 
@@ -98,6 +100,13 @@ Final Features that were included in the model are:
 
 
 ## Data Insights
+
+
+| Command | Description |
+| --- | --- |
+| ![](img/Room_type.png) | ![](img/House_type.png) |
+
+
 
 ![](img/Room_type.png)
 
@@ -169,7 +178,7 @@ TRAIN
 
 
 ## Acknowledgments
-
+I greatly appreciate Galvanize instructors, Juliana Duncan and Dan Rupp, for their valuable comments during this project. I would also like to thank Wing Lau for her insight through this project.
 
 
 
