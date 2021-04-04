@@ -1,4 +1,4 @@
-# Predicting Airbnb Listing Price in Austin, TX
+# Predicting Airbnb Listing Prices with Machine Learning and Deep Learning in Austin, TX
 
 ![](img/Austin_Airbnb.JPG)
 
@@ -95,9 +95,11 @@ The following figure shows the correlation heat map for some of the important fe
 ## Data Insights
 In this section, I explored the data in more details to get more understanding of the correlation
 
+![](img/Airbnb_prices.png)
 
 
 ![](img/Room_type.png)
+
 
 
 
@@ -106,6 +108,7 @@ In this section, I explored the data in more details to get more understanding o
 In terms of location of Airbnb units, 18 out of 20 locations with highest Airbnb units are located close to the downtown area and zilker part where most of the music and film festivals are being held. For people who are not familiar with Austin area, East downtown is one of the most fast growing areas in Austin.
 
 ![](img/Location.png)
+
 
 
 ![](img/Price_vs_guest.png)
@@ -119,14 +122,8 @@ In terms of location of Airbnb units, 18 out of 20 locations with highest Airbnb
 ![](img/Owners.png)
 
 
+
 ![](img/host_joined.png)
-
-
-
-![](img/Airbnb_prices.png)
-
-
-
 
 
 ## ML WORK
@@ -139,11 +136,14 @@ In terms of location of Airbnb units, 18 out of 20 locations with highest Airbnb
 
 ### Random Forest Method
 
+daswsfdgdf
+
+
 | Training dataset | Testing Dataset |
 | --- | --- |
 | ![](img/rf_training.png) | ![](img/rf_test.png) |
-| R2 score =               | R2 score =           |
-| RMSE score =             | RMSE score =         |
+| R2 score = 0.7           | R2 score = 0.66      |
+| RMSE score = 41          | RMSE score = 121     |
 
 
 ![](img/residuals.png)
@@ -154,11 +154,11 @@ In terms of location of Airbnb units, 18 out of 20 locations with highest Airbnb
 
 ### Gradient Boost Method
 
-| Training dataset | Testing Dataset |
+| Testing dataset | Testing Dataset (filter based on price) |
 | --- | --- |
 | ![](img/GINI_Train.png) | ![](img/GINI_Test.png) |
-| R2 score =              | R2 score =             |
-| RMSE score =            | RMSE score =           |
+| R2 score = 0.68         | R2 score = 0.7         |
+| RMSE score = 118        | RMSE score = 65        |
 
 
 
