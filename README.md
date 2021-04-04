@@ -179,9 +179,3 @@ TRAIN
 
 ## Acknowledgments
 I greatly appreciate Galvanize instructors, Juliana Duncan and Dan Rupp, for their valuable comments during this project. I would also like to thank Wing Lau for her insight throughout this project.
-
-
-
-![](images/Introduction.png)
-
-<img src="images/Workflow.jpg" width=800 height = 400>
