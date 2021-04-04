@@ -74,24 +74,11 @@ The following figure shows the histogram of Airbnb listing prices in Austin. The
 
 ![](img/Airbnb_prices.png)
 
-
-
-
-
+The following figures also show the type of the room and properties available on Airbnb. As can be seen, around 8000 units are entire home, 2000 units are private room, 200 units are shared room, and less than 20 units are hotel rooms. The figure on the right shows more details of the availble houses and apartments in Austin.
 
 | Distribution of Room Type | Distribution of Housing Type |
 | --- | --- |
 | ![](img/Room_type.png)    | ![](img/House_type.png)      |
-
-
-
-
-
-
-
-
-
-
 
 In terms of location of Airbnb units, 18 out of 20 locations with highest Airbnb units are located close to the downtown area and zilker part where most of the music and film festivals are being held. For people who are not familiar with Austin area, East downtown is one of the most fast growing areas in Austin.
 
