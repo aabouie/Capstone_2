@@ -68,15 +68,12 @@ The following figure shows the correlation heat map for some of the important fe
 ![](img/Correlation.png)
 
 ## Data Insights
-In this section, I explored the data in more details to get more understanding of the correlation
+In this section, I explored the data in more details to find any interesting trends/insights.
 
-
-
+The following figure shows the histogram of Airbnb listing prices in Austin. The left figure shows the numbers on y-axis in logarithmic scale and the right figure shows the number of units with prices less than $1000. Based on the data, the mean and median listing price of Airbnb units in Austin are $250 and $150, accordingly.
 
 ![](img/Airbnb_prices.png)
 
-Mean price $250
-Median price: $150
 
 
 ![](img/Room_type.png)
