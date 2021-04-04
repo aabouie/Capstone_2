@@ -9,27 +9,28 @@ Airbnb is an online marketplace that connects people who want to rent out their 
 
 
 
-
-
-
-
-The dataset includes Airbnb availble units, locations, availability data, etc.
-
+This projects aims to solve this problem, by using machine learning to predict the base price of available units in Austin. In the following section, I'm going to describe the exploratory data analysis, followed by building different models to predict Airbnb prices.
 
 
 ## Web Scraping
-In this project, I scraped the Airbnb website to get the details of all available units in Austin, TX area. It's worth to mention that the units URLs were obtained from the available records on Insideairbnb.com website. After scraping the Airbnb website, the details of 10272 units with more than 80 features were obtained. You can find the scraping code in the following directory: SRC/Airbnb_Scraping.ipynb
-
+In this project, I scraped the Airbnb website to get the details of all available units in Austin, TX area. It's worth to mention that the units URLs were obtained from the available records on Insideairbnb.com website. Then, Selenium and BeautifulSoup were used to scrape the required data from each Url, followed by storing the data in Mongo database.
+After scraping the Airbnb website, the details of 10272 units with more than 80 features were obtained. You can find the scraping code in the following directory: SRC/Airbnb_Scraping.ipynb
 
 ## EDA Analysis
 
 
 
 
+According to data from Beyond Pricing, someone with a FLAT pricing plan can stand to gain as much as 43% on revenues.  Even very experienced hosts who keep diligent market data and track competitive pricing regularly can expect to gain at least 10% to their revenues.
+
+It’s not easy to price your Airbnb unit on your own and it takes up quite a bit of time and effort that you might not have.
+
+Having a partner like Beyond Pricing that can automatically track all the relevant data for you and adjust your pricing optimally to get you more profits is worth considering if you want more bookings during low season and higher booking rates during high season.
 
 
+Many Airbnb hosts, particularly new and less experienced ones, will set a baseline price for their unit and then just forget about it.  This is a perfect way to miss out on bookings and leave profits on the table.
 
-
+Let’s look the example below with three different hosts, each holding a flat pricing throughout the year.
 
 
 
@@ -92,12 +93,9 @@ Final Features that were included in the model are:
     * 78746
 
 
-
+The following figure shows the correlation heat map for some of the important features in the dataset. As can be seen, number of beds, bedrooms, bathrooms, and accomodates have relatively high positive impact on the Airbnb listing price.
 
 ![](img/Correlation.png)
-
-
-
 
 
 ## Data Insights
@@ -171,6 +169,12 @@ TRAIN
 ![](img/Test_gb_less_800.png)
 
 
+| Feature Importance in Random Forest | Feature Importance in Gradient Boosting |
+| --- | --- |
+| ![](img/rf_GINI_Importance.png)| ![](img/GB_GINI.png) |
+
+
+
 ## Future Work
 
 
@@ -179,7 +183,7 @@ TRAIN
 
 
 ## Acknowledgments
-I greatly appreciate Galvanize instructors, Juliana Duncan and Dan Rupp, for their valuable comments during this project. I would also like to thank Wing Lau for her insight through this project.
+I greatly appreciate Galvanize instructors, Juliana Duncan and Dan Rupp, for their valuable comments during this project. I would also like to thank Wing Lau for her insight throughout this project.
 
 
 
