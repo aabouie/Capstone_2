@@ -1,4 +1,4 @@
-# Project: Predicting Airbnb Listing Price in Austin, TX
+# Predicting Airbnb Listing Price in Austin, TX
 
 ![](img/Austin_Airbnb.JPG)
 
