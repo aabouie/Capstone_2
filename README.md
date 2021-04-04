@@ -89,7 +89,7 @@ The follwoing presents the median price versus the number of guest accommodated.
 ![](img/Price_vs_guest.png)
 
 There are more about 4000 hosts not living in Austin at this moments. There are about 1000 hosts that just used United Stats as the their residency country. In addition, the following cities are the top 5 residency cities of host not living in Austin:
-* United States (they just used "US" for their residency country)
+* United States (not explicitly mentioned their residency state)
 * Houston
 * San Francisco
 * New York
@@ -100,7 +100,6 @@ There are more about 4000 hosts not living in Austin at this moments. There are 
 Finally, the following figure shows the time hosts joined Airbnb. Airbnb was founded in August 2008. More and more hosts were joined Airbnb from 2008 to 2016. After 2016, there is a declining trend for the number of host joined till it reached its minimum  with less than 300 new host in 2020. Significant decline from 2019 to 2020 can be as a result of covid19. Starting 2021, it looks like more new hosts joined Airbnb to rent out their houses.
 
 ![](img/host_joined.png)
-
 
 ## ML WORK
 
