@@ -158,7 +158,6 @@ It is perhaps more surprising that the third most important feature is related t
 |                    ---                             |                         ---                         |
 |                 House with views                   |               House with salt pools                 |
 | <img src="img/party_house.png" width=350 height=300> | <img src="img/Theatres.png" width=350 height=300> |
-|                    ---                             |                         ---                         |
 |                 House for party                    |               Outside theatres                      |
 
 
