@@ -80,18 +80,13 @@ The following figures also show the type of the room and properties available on
 | --- | --- |
 | ![](img/Room_type.png)    | ![](img/House_type.png)      |
 
-In terms of location of Airbnb units, 18 out of 20 locations with highest Airbnb units are located close to the downtown area and zilker part where most of the music and film festivals are being held. For people who are not familiar with Austin area, East downtown is one of the most fast growing areas in Austin.
+In terms of location of Airbnb units, 18 out of top 20 locations with highest Airbnb units are located close to the downtown area and zilker part where most of the music and film festivals are being held. For people who are not familiar with Austin area, East downtown is one of the most fast growing areas in Austin.
 
 ![](img/Location.png)
 
-
+The follwoing presents the median price versus the number of guest accommodated. A linear relationship can be observed between the price and the accommodation.
 
 ![](img/Price_vs_guest.png)
-
-
-
-
-![](img/Owners.png)
 
 There are more about 4000 hosts not living in Austin at this moments. There are about 1000 hosts that just used United Stats as the their residency country. In addition, the following cities are the top 5 residency cities of host not living in Austin:
 * United States (they just used "US" for their residency country)
@@ -100,9 +95,11 @@ There are more about 4000 hosts not living in Austin at this moments. There are 
 * New York
 * Dallas
 
+![](img/Owners.png)
+
+Finally, the following figure shows the time hosts joined Airbnb. Airbnb was founded in August 2008. More and more hosts were joined Airbnb from 2008 to 2016. After 2016, there is a declining trend for the number of host joined till it reached its minimum  with less than 300 new host in 2020. Significant decline from 2019 to 2020 can be as a result of covid19. Starting 2021, it looks like more new hosts joined Airbnb to rent out their houses.
+
 ![](img/host_joined.png)
-
-
 
 
 ## ML WORK
