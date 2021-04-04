@@ -4,12 +4,11 @@
 
 Airbnb is an online marketplace that connects people who want to rent out their homes with people who are looking for accomodations in that area. Airbnb currently covers more than 100,000 cities and 220 countries worldwide. The company's name comes from "Air Mattress B&B".
 
+Although Airbnb and some other 3rd party website (e.g., beyondpricing.com) are also availble, however, the hosts still need to specify their expected daily price, and the algorithm can change the base price based on several factors such as seasonaility, day of the week, and any special events/conferences.
 
+Airbnb pricing is significantly important specially as competitiveness increases and more units become availble for rental on Airbnb, Hence even small difference in prices can make a big difference. In addition, it is importnat to understand the guests need to obtain more review, higher score, and provide better amenities.
 
-
-
-
-This projects aims to solve this problem, by using machine learning to predict the base price of available units in Austin. In the following section, I'm going to describe the exploratory data analysis, followed by building different models to predict Airbnb prices.
+This projects aims to solve this problem by predicting the base price of Airbnb units in Austin, using machine learning algorithms. In the following section, I'm going to describe the exploratory data analysis, followed by building different models to predict Airbnb prices.
 
 
 ## Web Scraping
@@ -99,7 +98,7 @@ The following figure shows the correlation heat map for some of the important fe
 
 
 ## Data Insights
-
+In this section, I explored the data in more details to get more understanding of the correlation
 
 
 
@@ -109,6 +108,7 @@ The following figure shows the correlation heat map for some of the important fe
 
 ![](img/House_type.png)
 
+In terms of location of Airbnb units, 18 out of 20 locations with highest Airbnb units are located close to the downtown area and zilker part where most of the music and film festivals are being held. For people who are not familiar with Austin area, East downtown is one of the most fast growing areas in Austin.
 
 ![](img/Location.png)
 
@@ -116,7 +116,6 @@ The following figure shows the correlation heat map for some of the important fe
 ![](img/Price_vs_guest.png)
 
 
-![](img/Price_vs_guest.png)
 
 ![](img/Price_vs_superhost.png)
 
