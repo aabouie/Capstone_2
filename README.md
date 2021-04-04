@@ -138,24 +138,32 @@ In terms of location of Airbnb units, 18 out of 20 locations with highest Airbnb
 
 
 
-![](img/residuals.png)
 
 
 
-Random Forest
+
+### Random Forest Method
 
 | Training dataset | Testing Dataset |
 | --- | --- |
 | ![](img/rf_training.png) | ![](img/rf_test.png) |
+| R2 score =               | R2 score =           |
+| RMSE score =             | RMSE score =         |
+
+
+![](img/residuals.png)
+
 
 ![](img/rf_permutation.png)
 
 
-GB
+### Gradient Boost Method
 
 | Training dataset | Testing Dataset |
 | --- | --- |
 | ![](img/GINI_Train.png) | ![](img/GINI_Test.png) |
+| R2 score =              | R2 score =             |
+| RMSE score =            | RMSE score =           |
 
 
 
@@ -171,9 +179,9 @@ GB
 
 ## Future Work
 
+* Include features that are not being included in the amenities part. This task can be done using NLP on house descriptions and/or reviews sections.
 
-
-
+* Continously scraping from Austin Airbnb website to include the seasonaility on the listing price.
 
 
 ## Acknowledgments
