@@ -16,36 +16,13 @@ In this project, I scraped the Airbnb website to get the details of all availabl
 After scraping the Airbnb website, the details of 10272 units with more than 80 features were obtained. You can find the scraping code in the following directory: SRC/Airbnb_Scraping.ipynb
 
 ## EDA Analysis
+After loading the data into pandas dataframe format, I performed data-preprocessing on the data and made sure that the formatting and values are reasonable. The following items are a few examples of data preprocessing work that has been done:
 
+    Remove Outliers: Prices (higher than $2,500), unnecessary features (e.g., host ID) 
+    Handle Null Values: Remove the rows with null values in price or rating 
+    Handle Categorical Data Type: Used one-hot-encoding for features that were categorical (e.g., zip code, pool, bbq)
 
-
-
-
-
-
-
-
-
-
-
-### Features
-Features are chosen only if they were informative and are likely to correlated with the price label. Therefore, I eliminated features like id, host_id, neighborhood description which did not have an impact on the listing price. In addition, I removed some of the other features such as longitude and lagitutude as I was mainly using zipcode as the feature.
-
-* Label
-
-
-* Continous features
-
-
-
-* Categorical features:
-
-
-* Text features:
-
-
-* Date features: 
-
+Therefore, features were chosen only if they were informative and are likely to correlated with the price label. In addition, I removed some of the other features such as longitude and lagitutude as I was mainly using zipcode as the feature.
 
 Final Features that were included in the model are:
 * host_is_superhost
@@ -70,7 +47,7 @@ Final Features that were included in the model are:
 * Checkin score
 * Value score
 * Available Amenities:
-    * Pool 
+    * Pool                  
     * TV 
     * Washer 
     * Dryer
@@ -86,11 +63,9 @@ Final Features that were included in the model are:
     * 78734
     * 78746
 
-
 The following figure shows the correlation heat map for some of the important features in the dataset. As can be seen, number of beds, bedrooms, bathrooms, and accomodates have relatively high positive impact on the Airbnb listing price.
 
 ![](img/Correlation.png)
-
 
 ## Data Insights
 In this section, I explored the data in more details to get more understanding of the correlation
