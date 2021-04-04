@@ -1,5 +1,7 @@
 # Project: Predicting Airbnb Listing Price in Austin, TX
 
+![](img/Austin_Airbnb.JPG)
+
 The dataset includes Airbnb availble units, locations, availability data, etc.
 
 
