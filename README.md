@@ -95,7 +95,13 @@ The following figure shows the correlation heat map for some of the important fe
 ## Data Insights
 In this section, I explored the data in more details to get more understanding of the correlation
 
+
+
+
 ![](img/Airbnb_prices.png)
+
+Mean price $250
+Median price: $150
 
 
 ![](img/Room_type.png)
@@ -115,15 +121,19 @@ In terms of location of Airbnb units, 18 out of 20 locations with highest Airbnb
 
 
 
-![](img/Price_vs_superhost.png)
-
-
 
 ![](img/Owners.png)
 
-
+There are more about 4000 hosts not living in Austin at this moments. There are about 1000 hosts that just used United Stats as the their residency country. In addition, the following cities are the top 5 residency cities of host not living in Austin:
+* United States (they just used "US" for their residency country)
+* Houston
+* San Francisco
+* New York
+* Dallas
 
 ![](img/host_joined.png)
+
+
 
 
 ## ML WORK
@@ -145,8 +155,6 @@ daswsfdgdf
 | R2 score = 0.7           | R2 score = 0.66      |
 | RMSE score = 41          | RMSE score = 121     |
 
-
-![](img/residuals.png)
 
 
 ![](img/rf_permutation.png)
