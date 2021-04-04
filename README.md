@@ -50,9 +50,9 @@ Features are chosen only if they ware informative and are likely to correlated w
 
 
 Final Features that were included in the model are:
-    * host_is_superhost
-    * host_listings_count
-    * host_total_listings_count
+* host_is_superhost
+* host_listings_count
+* host_total_listings_count
     * Accommodates
     * Number of bedrooms
     * Number of beds
@@ -72,7 +72,7 @@ Final Features that were included in the model are:
     * Checkin score
     * Value score
     * Available Amenities:
-        * Pool 
+        *Pool 
         * TV 
         * Washer 
         * Dryer
