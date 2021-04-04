@@ -12,7 +12,7 @@ The goal of this project is to solve this problem by predicting the base price o
 
 
 ## Web Scraping
-In this project, I scraped the Airbnb website to get the details of all available units in Austin, TX area. It's worth to mention that the units URLs were obtained from the available records on Insideairbnb.com website. Then, Selenium and BeautifulSoup were used to scrape the required data from each Url, followed by storing the data in Mongo database.
+In this project, I scraped the Airbnb website to get the details of all available units in Austin, TX area on March 15, 2021. It's worth to mention that the units URLs were obtained from the available records on Insideairbnb.com website. Then, Selenium and BeautifulSoup were used to scrape the required data from each Url, followed by storing the data in Mongo database.
 After scraping the Airbnb website, the details of 10272 units with more than 80 features were obtained. You can find the scraping code in the following directory: SRC/Airbnb_Scraping.ipynb
 
 ## EDA Analysis
@@ -102,16 +102,15 @@ Finally, the following figure shows the time hosts joined Airbnb. Airbnb was fou
 ![](img/host_joined.png)
 
 ## ML WORK
-
-
-
-
-
-
+In this section, I build two models using random forest and gradient boosting to predict the listing prices. I used 85% of the data for my training set and 15% for the test set. In addition, I used gridsearch algorithm to tune the hyper-parameters to achieve higher scores.
 
 ### Random Forest Method
+For the first step, I build a random forest model and fit that to my training dataset. Then, I used gridsearch algorithm to tune my hyperparameters. Finally, I used the following values for my hyper-parameters:
+* Max_features: 10
+* Max_depth: 15
+* number of trees: 1250
 
-daswsfdgdf
+The follwoing figures shows the performance of the model on the training and test dataset.
 
 
 | Training dataset | Testing Dataset |
@@ -142,6 +141,10 @@ daswsfdgdf
 | Feature Importance in Random Forest | Feature Importance in Gradient Boosting |
 | --- | --- |
 | ![](img/rf_GINI_Importance.png)| ![](img/GB_GINI.png) |
+
+
+### Features Result in Higher Listing Price
+
 
 
 
