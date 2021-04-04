@@ -3,12 +3,10 @@
 ![](img/Austin_Airbnb.JPG)
 
 Airbnb is an online marketplace that connects people who want to rent out their homes with people who are looking for accomodations in that area. Airbnb currently covers more than 100,000 cities and 220 countries worldwide. The company's name comes from "Air Mattress B&B".
-
-Although Airbnb and some other 3rd party website (e.g., beyondpricing.com) are also availble, however, the hosts still need to specify their expected daily price, and the algorithm can change the base price based on several factors such as seasonaility, day of the week, and any special events/conferences.
-
-Airbnb pricing is significantly important specially as competitiveness increases and more units become availble for rental on Airbnb, Hence even small difference in prices can make a big difference. In addition, it is importnat to understand the guests need to obtain more review, higher score, and provide better amenities.
-
-This projects aims to solve this problem by predicting the base price of Airbnb units in Austin, using machine learning algorithms. In the following section, I'm going to describe the exploratory data analysis, followed by building different models to predict Airbnb prices.
+Although Airbnb and some other 3rd party website (e.g., beyondpricing.com) can help in pricing the units, the hosts still need to specify the base daily price, and then, those websites can change the price based on several factors such as seasonaility, day of the week, and any special events (e.g., national holiday,conferences, etc.). 
+Many airbnb hosts, especially new and less experiences ones, might set a baseline for their unit which can be higher than the competitive pricing and marketing data which results on missing out on bookings or can be lower which results on leaving profits on the table. Therefore, Airbnb pricing is significantly important specially when competitiveness increases and more rental units become availble on Airbnb. In that case, even small difference in prices can make a big difference. According to the latest marketing data on rental units, competitive pricing can increase the revenue by at least 10%. 
+Additionally, it is important to understand what factors (e.g., amenities) are more interesting to the guests, so we can come up with a strategy to attract more guests. 
+The goal of this project is to solve this problem by predicting the base price of Airbnb units in Austin, using machine learning algorithms. In the following sections, I'm going to briefly describe the exploratory data analysis (EDA), followed by building several predictive models. 
 
 
 ## Web Scraping
@@ -20,16 +18,11 @@ After scraping the Airbnb website, the details of 10272 units with more than 80 
 
 
 
-According to data from Beyond Pricing, someone with a FLAT pricing plan can stand to gain as much as 43% on revenues.  Even very experienced hosts who keep diligent market data and track competitive pricing regularly can expect to gain at least 10% to their revenues.
-
-It’s not easy to price your Airbnb unit on your own and it takes up quite a bit of time and effort that you might not have.
-
-Having a partner like Beyond Pricing that can automatically track all the relevant data for you and adjust your pricing optimally to get you more profits is worth considering if you want more bookings during low season and higher booking rates during high season.
 
 
-Many Airbnb hosts, particularly new and less experienced ones, will set a baseline price for their unit and then just forget about it.  This is a perfect way to miss out on bookings and leave profits on the table.
 
-Let’s look the example below with three different hosts, each holding a flat pricing throughout the year.
+
+
 
 
 
