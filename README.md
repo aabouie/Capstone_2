@@ -1,16 +1,17 @@
 # Project: Predicting Airbnb Listing Price in Austin, TX
+
+![](img/Austin_Airbnb.JPG)
+
 Airbnb is an online marketplace that connects people who want to rent out their homes with people who are looking for accomodations in that area. Airbnb currently covers more than 100,000 cities and 220 countries worldwide. The company's name comes from "Air Mattress B&B".
 
 
 
-![](images/Introduction.png)
-
-<img src="images/Workflow.jpg" width=800 height = 400>
 
 
 
 
-![](img/Austin_Airbnb.JPG)
+
+
 
 The dataset includes Airbnb availble units, locations, availability data, etc.
 
@@ -182,3 +183,6 @@ I greatly appreciate Galvanize instructors, Juliana Duncan and Dan Rupp, for the
 
 
 
+![](images/Introduction.png)
+
+<img src="images/Workflow.jpg" width=800 height = 400>
