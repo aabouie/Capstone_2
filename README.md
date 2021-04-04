@@ -76,12 +76,22 @@ The following figure shows the histogram of Airbnb listing prices in Austin. The
 
 
 
-![](img/Room_type.png)
+
+
+
+| Distribution of Room Type | Distribution of Housing Type |
+| --- | --- |
+| ![](img/Room_type.png)    | ![](img/House_type.png)      |
 
 
 
 
-![](img/House_type.png)
+
+
+
+
+
+
 
 In terms of location of Airbnb units, 18 out of 20 locations with highest Airbnb units are located close to the downtown area and zilker part where most of the music and film festivals are being held. For people who are not familiar with Austin area, East downtown is one of the most fast growing areas in Austin.
 
