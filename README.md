@@ -101,10 +101,6 @@ The following figure shows the correlation heat map for some of the important fe
 ## Data Insights
 
 
-| Command | Description |
-| --- | --- |
-| ![](img/Room_type.png) | ![](img/House_type.png) |
-
 
 
 ![](img/Room_type.png)
