@@ -110,7 +110,7 @@ For the first step, I build a random forest model and fit that to my training da
 * Max_depth: 15
 * number of trees: 1250
 
-The follwoing figures shows the performance of the model on the training and test dataset.
+By using the random forest module of SKlearn, I got the following results for my training and test dataset. It's worth to mention that the colormap shows the availability of the houses over the next 90 days. Hence, value of 1 means full availability for booking over the next 90 days and 0 means no availability (fully-booked). As can be seen from the following two figures, the model has relatively good accuracy at listing price of less than $800. However, it seems that the model is underpredicting the listing prices more than $800. These units look to have higher availability (less booking) compared to other units. This can be explained in two ways: 1) The hosts have overpriced their units. Hence, travelers prefer to book a less expensive house. 2) Because of higher listing price, it can be normal that few travelers can afford the costs. I took a more detailed look at these houses and will explain my finding in the last part of this section.
 
 
 | Training dataset | Testing Dataset |
@@ -119,12 +119,21 @@ The follwoing figures shows the performance of the model on the training and tes
 | R2 score = 0.7           | R2 score = 0.66      |
 | RMSE score = 41          | RMSE score = 121     |
 
-
+The following figure also shows the permutation importances of the features (average decrease in test score when a feature's values are shuffled)
 
 ![](img/rf_permutation.png)
 
 
 ### Gradient Boost Method
+I also build a gradient boost model from sklearn library and trained that based on my training set. I also used gridseach algorithm tune the hyper-parameters. My final hyper-parameters of the gradient boost model are:
+* Learning rate: 0.01
+* Number of trees: 2000
+* Max depth: 4
+* min_samples_split: 4
+
+The scores on my test set shows slight improvement compared to the random forest model. In addition, the result look much more promising when I filtered out the houses with more than $800 listing prices.
+
+
 
 | Testing dataset | Testing Dataset (filter based on price) |
 | --- | --- |
