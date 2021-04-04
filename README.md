@@ -143,22 +143,21 @@ In terms of location of Airbnb units, 18 out of 20 locations with highest Airbnb
 
 
 Random Forest
-![](img/rf_GINI_Importance.png)
+
+| Training dataset | Testing Dataset |
+| --- | --- |
+| ![](img/rf_training.png) | ![](img/rf_test.png) |
 
 ![](img/rf_permutation.png)
 
-![](img/rf_test.png)
-
-![](img/rf_training.png)
-
-
 
 GB
-![](img/GB_GINI.png)
-TEST
-![](img/GINI_Test.png)
-TRAIN
-![](img/GINI_Train.png)
+
+| Training dataset | Testing Dataset |
+| --- | --- |
+| ![](img/GINI_Train.png) | ![](img/GINI_Test.png) |
+
+
 
 
 ![](img/Test_gb_less_800.png)
