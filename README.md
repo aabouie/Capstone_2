@@ -133,8 +133,6 @@ I also build a gradient boost model from sklearn library and trained that based 
 
 The scores on my test set shows slight improvement compared to the random forest model. In addition, the result look much more promising when I filtered out the houses with more than $800 listing prices.
 
-
-
 | Testing dataset | Testing Dataset (filter based on price) |
 | --- | --- |
 | ![](img/GINI_Test.png)  | ![](img/Test_gb_less_800.png) |
@@ -142,9 +140,11 @@ The scores on my test set shows slight improvement compared to the random forest
 | RMSE score = 118        | RMSE score = 65        |
 
 
+Finally, I plotted the feature importance of the various features using both random forest and gradient boost algorithms to explain the pricing of Airbnb houses in Austin.
 
+It is not surprising that the most important feature is how many people the property accommodates, as that’s one of the main things you would use to search for properties in the first place. It is also not surprising that features related to location and reviews are in the top ten.
 
-
+It is perhaps more surprising that the third most important feature is related to how many other listings the host manages on Airbnb, rather than the listing itself. However, this does not mean that a host that manages more properties will result in a listing gaining higher prices (although this is indeed the direction of the relationship). Firstly, the data appears to be somewhat skewed by a few very large property managers. Secondly, the relationship is with the advertised prices set, rather than actual prices achieved, suggesting that if anything more experienced hosts tend to set (rather than necessarily achieve) higher prices. And thirdly, we cannot necessarily imply a causative relationship — it could be that more experienced multi-listing hosts tend to take on more expensive properties (which is indeed the case for some, e.g. One Fine Stay).
 
 
 | Feature Importance in Random Forest | Feature Importance in Gradient Boosting |
@@ -153,6 +153,13 @@ The scores on my test set shows slight improvement compared to the random forest
 
 
 ### Features Result in Higher Listing Price
+
+| --- | --- |
+| ![](img/)| ![](img/Salt_pool.png) |
+| --- | --- |
+| ![](img/party_house.png) | ![](img/Theatres.png) |
+| --- | --- |
+
 
 
 
