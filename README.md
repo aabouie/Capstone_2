@@ -128,14 +128,14 @@ The follwoing figures shows the performance of the model on the training and tes
 
 | Testing dataset | Testing Dataset (filter based on price) |
 | --- | --- |
-| ![](img/GINI_Train.png) | ![](img/GINI_Test.png) |
+| ![](img/GINI_Test.png)  | ![](img/Test_gb_less_800.png) |
 | R2 score = 0.68         | R2 score = 0.7         |
 | RMSE score = 118        | RMSE score = 65        |
 
 
 
 
-![](img/Test_gb_less_800.png)
+
 
 
 | Feature Importance in Random Forest | Feature Importance in Gradient Boosting |
