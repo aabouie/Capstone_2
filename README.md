@@ -154,14 +154,12 @@ It is perhaps more surprising that the third most important feature is related t
 
 ### Features Result in Higher Listing Price
 
-|                    ---                             |                         ---                         |
 | <img src="img/House_view.png" width=350 height=300>| <img src="img/Salt_pool.png" width=350 height=300>  |
 |                    ---                             |                         ---                         |
 |                 House with views                   |               House with salt pools                 |
 | <img src="img/party_house.png" width=350 height=300> | <img src="img/Theatres.png" width=350 height=300> |
 |                    ---                             |                         ---                         |
 |                 House for party                    |               Outside theatres                      |
-|                    ---                             |                         ---                         |
 
 
 
