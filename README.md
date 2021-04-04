@@ -53,40 +53,40 @@ Final Features that were included in the model are:
 * host_is_superhost
 * host_listings_count
 * host_total_listings_count
-    * Accommodates
-    * Number of bedrooms
-    * Number of beds
-    * Number of bathrooms
-    * Minimum number of nights of reservation
-    * Maximum number of nights of reservation
-    * Availability of the unit in the next 90 days
-    * Total number of reviews
-    * Total number of reviews over the last 30 days
-    * Whether the unit is instantly bookable or not
-    * How long the host has joined Airbnb
-    * Whether the availble room is private or shared
-    * Whether the entire house is available or not
-    * Cleanliness score
-    * Accuracy score
-    * Communication score
-    * Checkin score
-    * Value score
-    * Available Amenities:
-        *Pool 
-        * TV 
-        * Washer 
-        * Dryer
-        * Balcony
-        * Private entrance
-        * BBQ grill
-        * Hot tub
-    * Single level home
-    * Five areas in Austin with the following zip codes:
-        * 78702
-        * 78703
-        * 78704
-        * 78734
-        * 78746
+* Accommodates
+* Number of bedrooms
+* Number of beds
+* Number of bathrooms
+* Minimum number of nights of reservation
+* Maximum number of nights of reservation
+* Availability of the unit in the next 90 days
+* Total number of reviews
+* Total number of reviews over the last 30 days
+* Whether the unit is instantly bookable or not
+* How long the host has joined Airbnb
+* Whether the availble room is private or shared
+* Whether the entire house is available or not
+* Cleanliness score
+* Accuracy score
+* Communication score
+* Checkin score
+* Value score
+* Available Amenities:
+    * Pool 
+    * TV 
+    * Washer 
+    * Dryer
+    * Balcony
+    * Private entrance
+    * BBQ grill
+    * Hot tub
+* Single level home
+* Five areas in Austin with the following zip codes:
+    * 78702
+    * 78703
+    * 78704
+    * 78734
+    * 78746
 
 
 
