@@ -1,4 +1,10 @@
 # Project: Predicting Airbnb Listing Price in Austin, TX
+![](images/Introduction.png)
+
+<img src="images/Workflow.jpg" width=800 height = 400>
+
+
+
 
 ![](img/Austin_Airbnb.JPG)
 
