@@ -153,14 +153,14 @@ It is perhaps more surprising that the third most important feature is related t
 
 
 ### Features Result in Higher Listing Price
+In the last step, I dig deep into the model to understand the reason for underprediction at listing price above $1000. Among those houses, there were a few definitely overprices without having any specific features. In other words, you can find other airbnb properties in that same area with the nearly similar features at much lower price. 
+However, there were house with some specificcation that the ML models have not been trained on. The following four figures are examples of those features. These features were not mentioned explicitly in the amenities section and were only included in the description part. Hence, one of the future step of this project is to extract those specific features by using NLP on the description and reviews sections.
 
 | <img src="img/House_view.png" width=350 height=300>| <img src="img/Salt_pool.png" width=350 height=300>  |
 |                    ---                             |                         ---                         |
 |                 House with views                   |               House with salt pools                 |
 | <img src="img/party_house.png" width=350 height=300> | <img src="img/Theatres.png" width=350 height=300> |
 |                 House for party                    |               Outside theatres                      |
-
-
 
 
 ## Future Work
@@ -171,4 +171,4 @@ It is perhaps more surprising that the third most important feature is related t
 
 
 ## Acknowledgments
-I greatly appreciate Galvanize instructors, Juliana Duncan and Dan Rupp, for their valuable comments during this project. I would also like to thank Wing Lau for her insight throughout this project.
+I greatly appreciate Galvanize instructors, Juliana Duncan and Dan Rupp and Kiara, for their valuable comments during this project. I would also like to thank Wing Lau for her insight throughout this project.
