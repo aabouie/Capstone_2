@@ -1,4 +1,4 @@
-# Predicting Airbnb Listing Prices with Machine Learning and Deep Learning in Austin, TX
+# Predicting Airbnb Listing Prices with Machine Learning in Austin, TX
 
 ![](img/Austin_Airbnb.JPG)
 
